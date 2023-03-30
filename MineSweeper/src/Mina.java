@@ -8,7 +8,7 @@ public class Mina {
 	}
 	
 	public void setMina() {
-		mina = 1;
+		mine = 1;
 	}
 	
 	public void premi() {
