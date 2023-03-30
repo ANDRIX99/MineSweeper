@@ -1,0 +1,50 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\andre\Downloads\MineSweeper\MineSweeper.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\andre\Downloads\MineSweeper\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;C:\Users\andre\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Autodesk Shared\Advance\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\andre\.dotnet\tools;C:\Users\andre\AppData\Roaming\npm;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;C:\Users\andre\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Autodesk Shared\Advance\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\andre\.dotnet\tools;C:\Users\andre\AppData\Roaming\npm;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Python310\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Python310\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Razer Chroma SDK\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Razer Chroma SDK\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\VMware\VMware Player\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Razer\ChromaBroadcast\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Razer\ChromaBroadcast\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\bin\javaw.exe (not found)
+Check launcher:	C:\Users\andre\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\andre\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\120\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\chocolatey\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Autodesk Shared\Advance\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\andre\.dotnet\tools\bin\javaw.exe (not found)
+Check launcher:	C:\Users\andre\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe (OK)
+Version string: 1.019.000 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe
+Launcher args:	-jar "C:\Users\andre\Downloads\MineSweeper\MineSweeper.exe"
+Args length:	59/32768 chars
+Exit code:	0
