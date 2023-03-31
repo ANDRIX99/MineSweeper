@@ -21,10 +21,9 @@ class Swing{
 	static boolean [][]visited = new boolean[size][size];
 	boolean click = false;
 	long start, elapsed_time;
-	int punti = 0;
+	int point = 0;
 	int placed = 0;
 	int total_bee = 0;
-	int k,l;
 	
 	Swing() {
 		prepareGUI();
@@ -36,7 +35,7 @@ class Swing{
 	}
 	
 	public void initialize() {
-		punti = 0;
+		point = 0;
 		placed = 0;
 		total_bee = 0;
 		click = false;
@@ -156,7 +155,7 @@ class Swing{
 			for(int j = 0; j < calculate[0].length; j++) {
 				if(is_clicked[i][j] && !calculate[i][j]) {
 					calculate[i][j] = true;
-					punti++;
+					point++;
 				}
 			}
 		}
@@ -191,23 +190,23 @@ class Swing{
 								if(!is_clicked[i][j]) {
 									is_clicked[i][j] = true;
 									calculate[i][j] = true;
-									punti++;
+									point++;
 								}
 								
-								if(punti >= total_bee - placed) {
-									JOptionPane.showMessageDialog(null, "Hai vinto" + Float.toString(elapsed_time / 1000F));
+								if(point >= total_bee - placed) {
+									JOptionPane.showMessageDialog(null, "You win" + Float.toString(elapsed_time / 1000F));
 								}
 								text.setText("Punti " + Integer.toString(punti));
 							} else {
 								if(mina[i][j].getStato() == 1) {
 									btn[i][j].setIcon(new ImageIcon(preload()));
-									JOptionPane.showMessageDialog(null, "Hai perso scarsone");
+									JOptionPane.showMessageDialog(null, "You lose");
 								}
 							}
 						}
 						if(e.getButton() == MouseEvent.BUTTON3) {
 							System.out.println("right clicked");
-							Image img = Toolkit.getDefaultToolkit().getImage("C:\\Users\\andre\\Downloads\\MineSweeper\\src\\Image\\flag.png");
+							Image img = Toolkit.getDefaultToolkit().getImage("C:\\Users\\andre\\Documents\\GitHub\\MineSweeper\\MineSweeper\\src\\Image\\flag.png");
 							img = img.getScaledInstance(30, 30, Image.SCALE_DEFAULT);
 							if(!flag[i][j]) {
 								btn[i][j].setIcon(new ImageIcon(img));
@@ -275,7 +274,7 @@ class Swing{
 	}
 	
 	private Image preload() {
-		Image img = Toolkit.getDefaultToolkit().getImage("C:\\Users\\andre\\Downloads\\MineSweeper\\src\\Image\\mine.png");
+		Image img = Toolkit.getDefaultToolkit().getImage("C:\\Users\\andre\\Documents\\GitHub\\MineSweeper\\MineSweeper\\src\\Image\\mine.png");
 		img = img.getScaledInstance(30, 30, Image.SCALE_DEFAULT);
 		return img;
 	}
