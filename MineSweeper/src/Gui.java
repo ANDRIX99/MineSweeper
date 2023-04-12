@@ -196,7 +196,7 @@ class Swing{
 								if(point >= total_bee - placed) {
 									JOptionPane.showMessageDialog(null, "You win" + Float.toString(elapsed_time / 1000F));
 								}
-								text.setText("Punti " + Integer.toString(punti));
+								text.setText("Punti " + Integer.toString(point));
 							} else {
 								if(mina[i][j].getStato() == 1) {
 									btn[i][j].setIcon(new ImageIcon(preload()));
@@ -224,8 +224,8 @@ class Swing{
 	};
 	
 	public void addButton() {
-		for(k = 0; k < btn.length; k++) {
-			for(l = 0; l < btn.length; l++) {
+		for(int k = 0; k < btn.length; k++) {
+			for(int l = 0; l < btn.length; l++) {
 				btn[k][l].setSize(50, 50);
 				panel.add(btn[k][l]);
 				btn[k][l].addMouseListener(mouseListener);
